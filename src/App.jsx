@@ -118,11 +118,13 @@ function App() {
               Team.Ant Design, a design language for
             </p>
           </div>
-          <div className="d_img">
-            <img src="./image/art1.png" alt="" />
-          </div>
-          <div className="d_img">
-            <img src="./image/art2.png" alt="" />
+          <div className="span">
+            <div className="d_img">
+              <img src="./image/art1.png" alt="" />
+            </div>
+            <div className="d_img">
+              <img src="./image/art2.png" alt="" />
+            </div>
           </div>
         </div>
       </div>

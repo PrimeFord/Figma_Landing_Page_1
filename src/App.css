@@ -494,4 +494,64 @@ section button:hover {
   :root {
     font-size: 10px;
   }
+  .btn button {
+    font-size: 0.85rem;
+    padding: 0.25rem;
+  }
+  .wrp1 .title {
+    width: 100%;
+    font-size: 2rem;
+  }
+  .wrp1 .para {
+    width: 80%;
+    font-size: 0.65rem;
+  }
+  .opt button {
+    padding: 0.25rem;
+    font-size: 0.85rem;
+  }
+  .pics {
+    height: 16rem;
+  }
+  .head span img {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+  .word {
+    font-size: 0.65rem;
+  }
+  .btn_arrow {
+    gap: 0.25rem;
+    font-size: 0.85rem;
+  }
+  .btn_arrow img {
+    scale: 0.5;
+    padding-top: 0.5rem;
+  }
+  .card {
+    flex-direction: column;
+  }
+  .details {
+    width: 100%;
+    gap: 1.5rem;
+    font-size: 0.65rem;
+    line-height: 1rem;
+  }
+  .details h2 {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+  .span {
+    display: flex;
+    gap: 1.5rem;
+  }
+  .bird_img {
+    width: 100%;
+  }
+  .sub {
+    width: 100%;
+    line-height: 1rem;
+    font-size: 0.65rem;
+    margin-left: 0rem;
+  }
 }
