@@ -333,6 +333,10 @@ function App() {
             </main>
           </div>
         </div>
+        <main className="subform1">
+          <input type="text" placeholder="example" />
+          <button type="submit">Button</button>
+        </main>
       </div>
     </div>
   );
