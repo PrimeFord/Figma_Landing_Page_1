@@ -180,52 +180,52 @@ function App() {
             </div>
             <div className="profile">
               <div className="pple1">
-                <img src="./image/gal3.png" alt="" />
+                <img src="./image/dope.png" alt="" />
                 <h4>Header</h4>
                 <p>Caption</p>
               </div>
               <div className="pple1">
-                <img src="./image/gal3.png" alt="" />
+                <img src="./image/photo.png" alt="" />
                 <h4>Header</h4>
                 <p>Caption</p>
               </div>
               <div className="pple1">
-                <img src="./image/gal3.png" alt="" />
+                <img src="./image/fresh.png" alt="" />
                 <h4>Header</h4>
                 <p>Caption</p>
               </div>
               <div className="pple1">
-                <img src="./image/gal3.png" alt="" />
+                <img src="./image/bro.png" alt="" />
                 <h4>Header</h4>
                 <p>Caption</p>
               </div>
               <div className="pple1">
-                <img src="./image/gal3.png" alt="" />
+                <img src="./image/okay.png" alt="" />
                 <h4>Header</h4>
                 <p>Caption</p>
               </div>
               <div className="pple1">
-                <img src="./image/gal3.png" alt="" />
+                <img src="./image/chill.png" alt="" />
                 <h4>Header</h4>
                 <p>Caption</p>
               </div>
               <div className="pple1">
-                <img src="./image/gal3.png" alt="" />
+                <img src="./image/greek.png" alt="" />
                 <h4>Header</h4>
                 <p>Caption</p>
               </div>
               <div className="pple1">
-                <img src="./image/gal3.png" alt="" />
+                <img src="./image/fine.png" alt="" />
                 <h4>Header</h4>
                 <p>Caption</p>
               </div>
               <div className="pple1">
-                <img src="./image/gal3.png" alt="" />
+                <img src="./image/tshirt.png" alt="" />
                 <h4>Header</h4>
                 <p>Caption</p>
               </div>
               <div className="pple1">
-                <img src="./image/gal3.png" alt="" />
+                <img src="./image/afro.png" alt="" />
                 <h4>Header</h4>
                 <p>Caption</p>
               </div>
@@ -294,9 +294,9 @@ function App() {
             </section>
           </div>
           <div className="social">
-            <img src="./image/github.png" alt="" />
-            <img src="./image/mail.png" alt="" />
-            <img src="./image/twitter.png" alt="" />
+            <img src="./image/ai.png" alt="" />
+            <img src="./image/google.png" alt="" />
+            <img src="./image/youtube.png" alt="" />
           </div>
         </div>
       </div>

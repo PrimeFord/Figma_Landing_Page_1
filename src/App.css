@@ -391,6 +391,10 @@ section button:hover {
   gap: 1rem;
   justify-content: center;
 }
+.social img {
+  height: 1.5rem;
+  width: 1.5rem;
+}
 .wrp8 {
   width: 100%;
   height: max-content;
