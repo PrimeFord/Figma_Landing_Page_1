@@ -484,3 +484,10 @@ section button:hover {
   background-color: white;
   color: black;
 }
+
+/* Responsivness */
+@media (max-width: 640px) {
+  :root {
+    font-size: 10px;
+  }
+}
