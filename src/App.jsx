@@ -1,21 +1,11 @@
 import "./App.css";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div className="App">
-      <nav className="nav-bar">
-        <p>Logo</p>
-        <div className="links">
-          <a href="http://">Button 1</a>
-          <a href="http://">Button 2</a>
-          <a href="http://">Button 3</a>
-          <a href="http://">Button 4</a>
-        </div>
-        <div className="btn">
-          <button>Button 1</button>
-          <button>Button 2</button>
-        </div>
-      </nav>
+      <Navbar />
       <div className="wrp1">
         <p className="title">Welcome to the best website template!</p>
         <p className="para">
@@ -302,42 +292,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="wrp8">
-        <div className="foot">
-          <div className="summary">
-            <h3>Logo</h3>
-            <p>
-              Ant Design, a design language for background applications, is
-              refined by Ant UED Team. Ant Design, a design language for
-              background applications, is refined by Ant UED Team.Ant Design, a
-              design
-            </p>
-          </div>
-          <div className="contact">
-            <h3>Contact us</h3>
-            <p>
-              <a href="http://">Button</a>
-              <a href="http://">Button</a>
-              <a href="http://">Button</a>
-            </p>
-          </div>
-          <div className="subscribe">
-            <h3>Logo</h3>
-            <p>
-              Ant Design, a design language for background applications, is
-              refined by Ant UED Team. Ant Design
-            </p>
-            <main className="subform">
-              <input type="text" placeholder="example" />
-              <button type="submit">Button</button>
-            </main>
-          </div>
-        </div>
-        <main className="subform1">
-          <input type="text" placeholder="example" />
-          <button type="submit">Button</button>
-        </main>
-      </div>
+      <Footer />
     </div>
   );
 }
