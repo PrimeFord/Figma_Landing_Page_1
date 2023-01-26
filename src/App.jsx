@@ -1,5 +1,7 @@
 import "./App.css";
 import Footer from "./components/Footer";
+import Gallery from "./components/Gallery";
+import Meet from "./components/Meet";
 import Navbar from "./components/Navbar";
 
 function App() {
@@ -143,16 +145,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="wrp5">
-        <h2>Gallery</h2>
-        <div className="cards">
-          <img className="gal gal1" src="./image/gal1.png" alt="gallery1" />
-          <img className="gal" src="./image/gal2.png" alt="gallery2" />
-          <img className="gal" src="./image/gal3.png" alt="gallery3" />
-          <img className="gal" src="./image/gal4.png" alt="gallery4" />
-          <img className="gal" src="./image/gal5.png" alt="gallery5" />
-        </div>
-      </div>
+      <Gallery />
       <div className="wrp6">
         <h2>Meet the Team</h2>
 
@@ -171,56 +164,52 @@ function App() {
               <img src="./image/arr2.png" alt="right-arrow" />
             </div>
             <div className="profile">
-              <div className="pple1">
-                <img src="./image/dope.png" alt="" />
-                <h4>Header</h4>
-                <p>Caption</p>
-              </div>
-              <div className="pple1">
-                <img src="./image/photo.png" alt="" />
-                <h4>Header</h4>
-                <p>Caption</p>
-              </div>
-              <div className="pple1">
-                <img src="./image/fresh.png" alt="" />
-                <h4>Header</h4>
-                <p>Caption</p>
-              </div>
-              <div className="pple1">
-                <img src="./image/bro.png" alt="" />
-                <h4>Header</h4>
-                <p>Caption</p>
-              </div>
-              <div className="pple1">
-                <img src="./image/okay.png" alt="" />
-                <h4>Header</h4>
-                <p>Caption</p>
-              </div>
-              <div className="pple1">
-                <img src="./image/chill.png" alt="" />
-                <h4>Header</h4>
-                <p>Caption</p>
-              </div>
-              <div className="pple1">
-                <img src="./image/greek.png" alt="" />
-                <h4>Header</h4>
-                <p>Caption</p>
-              </div>
-              <div className="pple1">
-                <img src="./image/fine.png" alt="" />
-                <h4>Header</h4>
-                <p>Caption</p>
-              </div>
-              <div className="pple1">
-                <img src="./image/tshirt.png" alt="" />
-                <h4>Header</h4>
-                <p>Caption</p>
-              </div>
-              <div className="pple1">
-                <img src="./image/afro.png" alt="" />
-                <h4>Header</h4>
-                <p>Caption</p>
-              </div>
+              <Meet img="/image/dope.png" header="John Milo" caption="CEO" />
+              <Meet
+                img="/image/photo.png"
+                header="Georgia Miller"
+                caption="Director"
+              />
+              <Meet
+                img="/image/fresh.png"
+                header="Diana Kent"
+                caption="Manager"
+              />
+              <Meet
+                img="/image/bro.png"
+                header="Josh Pattel"
+                caption="Assistant Manager"
+              />
+              <Meet
+                img="/image/okay.png"
+                header="Max Scott"
+                caption="Supervisor"
+              />
+              <Meet
+                img="/image/chill.png"
+                header="Angela Shanks"
+                caption="HR Manager"
+              />
+              <Meet
+                img="/image/greek.png"
+                header="Alex Ethan"
+                caption="Advisor"
+              />
+              <Meet
+                img="/image/fine.png"
+                header="Brenda Fox"
+                caption="Marketer"
+              />
+              <Meet
+                img="/image/tshirt.png"
+                header="Jeff Bush"
+                caption="Head of Staff"
+              />
+              <Meet
+                img="/image/afro.png"
+                header="Bobby Terry"
+                caption="Stylist"
+              />
             </div>
           </div>
         </div>
