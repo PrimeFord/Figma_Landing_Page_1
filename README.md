@@ -1,6 +1,6 @@
-# WeatherApp
+# Figma_Landing_Page
 
-This project is a landing page design from figma sing react app with full mobile responsiveness
+This project is a landing page design from figma using react app with full mobile responsiveness
 
 ## Getting Started
 
